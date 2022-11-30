@@ -5,7 +5,6 @@ const port = 3000
 // require express-handlebars here
 const exphbs = require('express-handlebars')
 
-const nav = document.querySelector('.navbar')
 // setting template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
