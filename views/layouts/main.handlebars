@@ -1,0 +1,26 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Simple Blog</title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+  </head>
+  <body>
+    <header class='d-flex justify-content-between'>
+      <div class='homepage-container'>
+        <a href='/' class='btn btn-secondary homepage'>回到首頁</a>
+      </div>
+
+      <div class='nav-container d-flex'>
+        <a href='/about' class='btn btn-secondary navbar about{{#if about}}active{{/if}}'>About</a>
+        <a
+          href='/portfolio'
+          class='btn btn-secondary navbar portfolio'
+        >Portfolio</a>
+        <a href='/contact' class='btn btn-secondary navbar contact'>Contact</a>
+      </div>
+    </header>
+    {{{body}}}
+  </body>
+</html>

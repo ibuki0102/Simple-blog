@@ -1,0 +1,9 @@
+body {
+  padding: 2vw 10vw;
+}
+.content {
+  margin: 20px 0;
+}
+.nav-container {
+  gap: 10px;
+}
